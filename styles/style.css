@@ -1,0 +1,108 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#eee;
+}
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+@font-face {
+    font-family: 'ChunkFive';
+    font-weight: 400;
+    src: url('/fonts/chunkfive-regular-webfont.woff2') format('woff2'),
+    url('/fonts/chunkfive-regular-webfont.woff') format('woff'); 
+}
+
+header{
+    position: relative;
+}
+
+header nav img{
+    max-width: 30vh
+
+}
+
+nav{
+    padding: 1rem;
+    display: flex;
+    background-color: white;
+}
+
+nav ul{
+    display: none;
+    list-style: none;
+}
+
+nav ul.open {
+    display:block
+}
+
+h1{
+    font-family: 'Chunkfive';
+    font-size: 2rem;
+}
+
+h2{
+    font-family: 'ChunkFive';
+    font-size: 1.5rem;
+}
+
+h3{
+     font-family: 'ChunkFive';
+    font-size: 1rem;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.bohemianRaspberry{
+    max-width: 100%;
+    object-fit: contain;
+    
+}
+
+.Verkooppunten{
+    max-width: 100%;
+    border-radius: 1em;
+}
+
+body img{
+    max-width: 50%;
+    
+}
+.doemee {
+    max-width: 100%;
+}
+
+button{
+    background-color: #ffbc0e;
+    border-radius: 2em;
+    text-decoration: none;
+    border: none;
+    padding: 1em;
+    font-weight: 600;
+}
+
+.footer-top{
+    background-color: #c4e7f3;
+}
+
+.footer-bottom{
+    background-color: #2a5729;
+}
