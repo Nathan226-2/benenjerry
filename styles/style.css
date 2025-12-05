@@ -27,19 +27,52 @@
     url('/fonts/chunkfive-regular-webfont.woff') format('woff'); 
 }
 
+h1 {
+    font-family: 'ChunkFive';
+}
+
+h2 {
+    font-family: 'Chunkfive';
+}
+
+h3 { 
+    font-family: 'Chunkfive';
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
-    position: relative;
-}
-
-header nav img{
-    max-width: 30vh
-
-}
-
-nav{
-    padding: 1rem;
-    display: flex;
     background-color: white;
+    position: fixed;
+}
+
+/* Hier begint de header*/
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+    width: 50%;
+    padding: 1em;
+}
+
+button.hamburgermenu {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #ffffff;
+    background-image:url(/images/hamburger-menu-4.png);
+    background-size: cover;
+    margin: 1em;
+    padding: 1em;
+}
+
+header button {
+    width: 10%;
+    height: 30%;
 }
 
 nav ul{
@@ -51,58 +84,173 @@ nav ul.open {
     display:block
 }
 
-h1{
-    font-family: 'Chunkfive';
-    font-size: 2rem;
+.hamburgermenu{
+
 }
 
-h2{
-    font-family: 'ChunkFive';
-    font-size: 1.5rem;
+section button {
+    background-color: #ffbc0e;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 3em;
+    font-weight: 600;
+    border: none;
 }
 
-h3{
-     font-family: 'ChunkFive';
-    font-size: 1rem;
+body {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0;
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
-   
-}
-
-.bohemianRaspberry{
+body main img {
     max-width: 100%;
-    object-fit: contain;
-    
+    padding: 0%;
 }
 
-.Verkooppunten{
-    max-width: 100%;
+main section article {
+    padding: 1em;
+}
+
+main {
+    padding: em;
+}
+
+/*css voor de bohemian rasberry sectie*/
+section:nth-of-type(1) div{
+    padding: 1em;
+}
+
+/*css voor de verkooppunten sectie*/
+section:nth-of-type(2) {
+    padding: 1em;
+}
+
+/*css voor de verkooppunten img*/
+section:nth-of-type(2) img {
     border-radius: 1em;
 }
 
-body img{
-    max-width: 50%;
+/*css voor de doe mee sectie*/
+section:nth-of-type(3) {
+    background-color: #201460;
+}
+
+/*css voor de doe mee heading*/
+section:nth-of-type(3) h2{
+   color: #ffffff;
+}
+
+/*css voor de doe mee p*/
+section:nth-of-type(3) p{
+   color: #ffffff;
+}
+
+/*css voor de doe mee div*/
+section:nth-of-type(3) div{
+   padding: 1em;
+   
+}
+
+/*css voor de topverhalen sectie*/
+section:nth-of-type(4) {
+    max-width: 100vw;
+}
+
+section:nth-of-type(4) h2 {
+    padding: 1em;
+}
+
+section:nth-of-type(4) div {
+    display: flex;
+    flex-wrap: wrap;
+}
+section:nth-of-type(4) div article {
+    flex-basis: 50%;
+}
+
+section:nth-of-type(4) img {
+    border-radius: 1em;
     
 }
-.doemee {
-    max-width: 100%;
-}
 
-button{
-    background-color: #ffbc0e;
-    border-radius: 2em;
-    text-decoration: none;
-    border: none;
-    padding: 1em;
-    font-weight: 600;
-}
-
-.footer-top{
+/*css voor het bovenste gedeelte van de footer*/
+section:nth-of-type(5) {
     background-color: #c4e7f3;
+    padding: 1em;
 }
 
-.footer-bottom{
+section:nth-of-type(5) article{
+    display: flex;
+}
+
+section:nth-of-type(5) div {
+    margin: 1em;
+}
+
+section:nth-of-type(5) article img{
+    max-width: 15%;
+}
+
+footer {
+    background-color: #2a5729;
+    
+}
+
+footer section{
+    background-color: #2a5729;
+    padding: 1em;
+}
+
+footer nav {
+    padding: 1em;
+     
+}
+
+footer h2{
+    color: #ffffff;
+    margin-top: 0;
+    
+}
+
+footer p{
+    color: #ffffff;
+}
+
+footer a{
+    color: #ffffff;
+}
+
+footer nav img{
+    max-width: 10%;
+    
+}
+
+footer section:nth-of-type(3) {
     background-color: #2a5729;
 }
+
+/*css voor de verkooppunten pagina begint hier*/
+
+.verkooppunten section:nth-of-type(1) {
+    background-color: white;
+}
+
+.verkooppunten section:nth-of-type(2) {
+    background-color: #ffffff;
+}
+
+.verkooppunten section:nth-of-type(3) {
+    background-color: #ffffff;
+   
+}
+
+.verkooppunten section:nth-of-type(4) {
+    background-color: #ffffff;
+    display: block;
+}
+
+.verkooppunten section:nth-of-type(5) {
+    background-color: #ffffff;
+}
+

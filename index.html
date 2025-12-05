@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html lang="nl">
-	
+<html lang="nl">	
 <head>
-	<!DOCTYPE html>
-	<html lang="en">
-	<head>
-		<link rel="stylesheet" href="/styles/style.css">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Ben&Jerry's</title>
-	</head>
-	<header id="header">
+	<link rel="stylesheet" href="/styles/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ben&Jerry's</title>
+</head>
+
+<body>
+	<header>
 		<nav>
-			<img alt="Ben & Jerry's Logo" src="./images/Logo.avif">
-			<button>Hamburger menu</button>
+			<a href="index.html"><img alt="Ben & Jerry's Logo" src="./images/Logo.avif"></a>
+			<button class="hamburgermenu"></button>
 			<ul>
 				<li>smaken</li>
-				<li>Verkooppunten</li>
+				<li><a href="./verkooppunten.html">verkooppunten</a></li>
 				<li>Activisme</li>
 				<li>Over Ben & Jerry's</li>
 				<li>Nieuwtjes</li>
@@ -24,112 +22,132 @@
 			</ul>
 		</nav>
 	</header>
-	<body>
-		<img class="bohemianRaspberry" src="./images/BohemianRasberry.webp" alt="">
-		<h1 class="heading-1">Bohemian Raspberry</h1>
-		<p>Laat je smaakpapillen rocken met de terugkeer van de zoete eerbetoon aan muziekroyalty Queen, ter gelegenheid van de 50e verjaardag van hun legendarische nummer, "Bohemian Rhapsody"!</p>
-		<div><button>Lees Meer</button></div>
 
+	<main>
+		<section>
+			<img src="./images/BohemianRasberry.webp" alt="">
+			<div>
+				<h1>Bohemian Raspberry</h1>
+				<p>Laat je smaakpapillen rocken met de terugkeer van de zoete eerbetoon aan muziekroyalty Queen, ter gelegenheid van de 50e verjaardag van hun legendarische nummer, "Bohemian Rhapsody"!</p>
+				<button>Lees Meer</button>
+			</div>
+		</section>
 
-		<h2>Verkooppunten</h2>
-		<img class="Verkooppunten" src="/images/Verkooppunten.jpg" alt="Verkooppunten">
-		<h3>Verkooppunten</h3>
-		<p>Vind jouw dichtstbijzijnde supermarkt of laat Ben & Jerry’s bezorgen door een restaurant of bezorg partner. </p>
-		<button>Vind nu!</button>
-	
-	
-		<img class="doemee" src="./images/Doemee.webp" alt="Doemee">
-		<h2>Doe mee</h2>
-		<p>Wij spreken ons uit over onderwerpen die ons nauw aan het hart liggen. Ontdek hoe jij kan helpen.</p>
-		<button>Ontdek meer over onze waarden</button>
-		
+		<section>
+			<h2>Verkooppunten</h2>
+			<img src="/images/Verkooppunten.jpg" alt="Verkooppunten">
+			<h3>Verkooppunten</h3>
+			<p>Vind jouw dichtstbijzijnde supermarkt of laat Ben & Jerry’s bezorgen door een restaurant of bezorg partner. </p>
+			<button>Vind nu!</button>
+		</section>
 
-		<h2>Topverhalen</h2>
-		<article>
-			<img src="./images/graveyard.avif" alt="graveyard">
-			<span class="datum">17 oktober 2025</span>
-			<h3>The Flavour Graveyard: Honouring our Dearly De-Pinted (Retired) Flavours</h3>
-			<p>We’ve created a lot of euphoric flavours over the years, but for better or worse, some of them have moved on to the great waffle cone in the sky: our Flavour Graveyard.</p>
-			<a href="">Meer lezen</a>
-		</article>
-		
-		<article>
-			<img src="./images/birthday.jpg" alt="graveyard">
-			<span class="datum">1 mei 2025</span>
-			<h3>QUIZ: Celebrate Our Birthday With 10 Trivia Questions</h3>
-			<p>Break out the balloons, it’s our birthday! Here’s a birthday challenge for you: Can you answer 10 trivia questions about your favorite ice cream makers? Give it a go!</p>
-			<a href="">Meer lezen</a>
-		</article>
+		<section>
+			<img src="./images/Doemee.webp" alt="Doemee">
+			<div>
+				<h2>Doe mee</h2>
+				<p>Wij spreken ons uit over onderwerpen die ons nauw aan het hart liggen. Ontdek hoe jij kan helpen.</p>
+				<button>Ontdek meer over onze waarden</button>
+			</div>
+		</section>	
 
-		<article>
-			<img src="./images/politiek.jpg" alt="graveyard">
-			<span class="datum">22 april 2025</span>
-			<h3>Iemand helpen is toch geen misdrijf? Bescherm solidariteit in Europa! </h3>
-			<p>Europese politici willen hulp aan nieuwkomers bestraffen. Kom in actie!</p>
-			<a href="">Meer lezen</a>
-		</article>
+		<section>
+			<h2>Topverhalen</h2>
+			<div>
+				<article>
+					<img src="./images/graveyard.avif" alt="graveyard">
+					<span class="datum">17 oktober 2025</span>
+					<h3>The Flavour Graveyard: Honouring our Dearly De-Pinted (Retired) Flavours</h3>
+					<p>We’ve created a lot of euphoric flavours over the years, but for better or worse, some of them have moved on to the great waffle cone in the sky: our Flavour Graveyard.</p>
+					<a href="">Meer lezen</a>
+				</article>
+				
+				<article>
+					<img src="./images/birthday.jpg" alt="quiz"> 
+					<span class="datum">1 mei 2025</span>
+					<h3>QUIZ: Celebrate Our Birthday With 10 Trivia Questions</h3>
+					<p>Break out the balloons, it’s our birthday! Here’s a birthday challenge for you: Can you answer 10 trivia questions about your favorite ice cream makers? Give it a go!</p>
+					<a href="">Meer lezen</a>
+				</article>
 
-		
-		<div class="footer-top">
+				<article>
+					<img src="./images/politiek.jpg" alt="europa">
+					<span>22 april 2025</span>
+					<h3>Iemand helpen is toch geen misdrijf? Bescherm solidariteit in Europa! </h3>
+					<p>Europese politici willen hulp aan nieuwkomers bestraffen. Kom in actie!</p>
+					<a href="">Meer lezen</a>
+				</article>
+			</div>	
+		</section>
+		<section>
 			<h2>Wij maken dolgraag ijs, maar ons werk krijgt pas echt betekenis wanneer wij ons bedrijf inzetten om de wereld mooier te maken.</h2>
 			<article>
 				<img src="./images/koe.svg" alt="koe">
-				<h2>Zorgvuldig uitgekozen ingrediënten</h2>
-				<p>Onze ingrediënten dragen bij aan positieve verandering en zorgen ervoor dat ons ijs sensationeel smaakt!</p>
-				<a href="">Productinkoop</a>
+				<div>
+					<h3>Zorgvuldig uitgekozen ingrediënten</h3>
+					<p>Onze ingrediënten dragen bij aan positieve verandering en zorgen ervoor dat ons ijs sensationeel smaakt!</p>
+					<a href="">Productinkoop</a>
+				</div>
 			</article>
 	
 			<article>
 				<img src="./images/peace.svg" alt="peace">
-				<h2>Gedeeld succes</h2>
-				<p>Ons doel is welvaart te creëren voor iedereen die verbonden is met ons bedrijf.</p>
-				<a href="">Onze missie en waarden</a>
+				<div>
+					<h3>Gedeeld succes</h3>
+					<p>Ons doel is welvaart te creëren voor iedereen die verbonden is met ons bedrijf.</p>
+					<a href="">Onze missie en waarden</a>
+				</div>
 			</article>
 	
 			<article>
 				<img src="./images/wereld.svg" alt="wereld">
-				<h2>Een verschil maken</h2>
-				<p>Wij spreken ons uit over onderwerpen die ons nauw aan het hart liggen.</p>
-				<a href="">Onderwerpen die wij belangrijk vinden</a>
+				<div>
+					<h3>Een verschil maken</h3>
+					<p>Wij spreken ons uit over onderwerpen die ons nauw aan het hart liggen.</p>
+					<a href="">Onderwerpen die wij belangrijk vinden</a>
+				</div>
 			</article>
-		</div>
+		</section>
+	</main>
 	
-		<div class="footer-bottom">
-			<div class="Footer-img"><img src="./images/woody.svg" alt="Woody"></div>
-			<div>
-				<h2>Meld je aan voor onze nieuwsbrief</h2>
-				<p>Wij zorgen ervoor dat je als eerste op de hoogte bent van nieuwe smaken, fun activiteiten en sociale initiatieven van Ben & Jerry's! Get the scoop!</p>
-				<form>
-					<label></label>
-					<input type="text" id="name" name="name" placeholder="Voer je e-mailadres in" />
-					<button type="submit">Submit</button>
-				</form>
-			</div>
-			<div>
-				<h2>Blijf op de hoogte</h2>
-				<a href="">Stuur ons feedback</a>
-				<a href="">unsubscribe</a>
-				<h2>Volg ons!</h2>
-				<span>Facebook</span>
-				<span>Instagram</span>
-				<span>Tiktok</span>
-				<span>Twitter</span>
-			</div>
-			<div>
-				<h2>Meer informatie</h2>
-				<a href="">Nieuws</a>
-				<a href="">Over ons</a>
-				<a href="">Hoe wij zaken doen</a>
-			</div>
-		   <div>
-			<img src="./images/NL.webp" alt="Nederlands">
-			<a class="dropdown toggle"></a>
-		   </div>
-	
-		</div>
-		<script src="/scripts/script.js"></script>
-	</body>
+
 	<footer>
-	
+		<section>
+			<h2>Meld je aan voor onze nieuwsbrief</h2>
+			<p>Wij zorgen ervoor dat je als eerste op de hoogte bent van nieuwe smaken, fun activiteiten en sociale initiatieven van Ben & Jerry's! Get the scoop!</p>
+			<form>
+				<label for="name"></label>
+				<input type="text" id="name" name="name" placeholder="Voer je e-mailadres in" />
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+		<section>
+			<h2>Blijf op de hoogte</h2>
+			<ul>
+				<li><a href="">Stuur ons feedback</a></li>
+				<li><a href="">unsubscribe</a></li>
+			</ul>
+		</section>
+
+		
+		<nav>
+			<h2>Volg ons!</h2>
+			<img src="/images/instagram.png" alt="imstagram">
+			<img src="/images/facebook.png" alt="facebook">
+			<img src="/images/tik-tok.png" alt="tiktok">
+			<img src="/images/twitter.png" alt="twitter">
+		</nav>
+
+		<section>
+			<h2>Meer informatie</h2>
+			<ul>
+				<li><a href="">Nieuws</a></li>
+				<li><a href="">Over ons</a></li>
+				<li><a href="">Hoe wij zaken doen</a></li>
+			</ul>
+		</section>
+		<img src="./images/NL.webp" alt="Nederlands">
+		<a class="dropdown toggle"></a>
 	</footer>
-	</html>
+	<script src="/scripts/script.js"></script>
+</body>
+</html>

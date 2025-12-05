@@ -83,7 +83,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Frame 1.png">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -103,7 +103,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Het opzetten van de html ging eigenlijk best wel goed. Ik twijfel alleen een beetje aan hoe semantisch mijn code is. Ik was ook al een beetje begonnen met css maar dat gaat nog lastig. 
+  Het opzetten van de html ging eigenlijk best wel goed. Ik twijfel alleen een beetje aan hoe semantisch mijn code is. Ik was ook al een beetje begonnen met css maar dat gaat nog lastig. Javascript heb ik het begin van een hamburger menu opgezet. Dit werd in de les uitgelegd.
 
 
   ### Agenda voor meeting
