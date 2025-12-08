@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style2.css">
     <title>Document</title>
 </head>
 <body class="verkooppunten">
@@ -24,13 +24,15 @@
     <main>
         <section>
             <img class="landing" src="./images/landing.verkooppunten.png" alt="landing">
-            <h1>Waar koop ik Ben & Jerry's</h1>
-            <p>Trek in Ben & Jerry’s ijs? Wij staan voor je klaar! Wanneer jouw ijs trek toeslaat, denk je vast: “waar kan ik nu een heerlijke Ben & Jerry’s kopen?” Ontdek een supermarkt of een ijsbezorging partner bij jouw in de buurt en geniet van jouw favoriete Ben & Jerry’s smaak.</p>
-            <div><button>Lees Meer</button></div>
+            <div>
+                <h1>Waar koop ik Ben & Jerry's</h1>
+                <p>Trek in Ben & Jerry’s ijs? Wij staan voor je klaar! Wanneer jouw ijs trek toeslaat, denk je vast: “waar kan ik nu een heerlijke Ben & Jerry’s kopen?” Ontdek een supermarkt of een ijsbezorging partner bij jouw in de buurt en geniet van jouw favoriete Ben & Jerry’s smaak.</p>
+                <button>Lees Meer</button>
+            </div>
         </section>
         <section>
-            <label for="site-search"></label>
-            <input type="search" id="site-search" name="q" placeholder="Zoek producten..."/>
+            <label aria-label="zoekbar" for="site-search"><input class="input" type="search" id="site-search" name="q" placeholder="Zoek producten..."/></label>
+           
         </section>
 
         <section>
@@ -51,47 +53,50 @@
         </section>
 
         <section>
-            <img src="images/spectaculove.avif" alt="Spectacu-love">
+            <img aria-label="ijsje" src="images/spectaculove.avif" alt="Spectacu-love">
+            <!-- <ul>
+                <li aria-label="ijsje"><div><img src="images/spectaculove.avif" alt="Spectacu-love"></div></li>
+            </ul> -->
         </section>
     </main>
-  
     <footer>
-        <h2>Meld je aan voor onze nieuwsbrief</h2>
-        <p>Wij zorgen ervoor dat je als eerste op de hoogte bent van nieuwe smaken, fun activiteiten en sociale initiatieven van Ben & Jerry's! Get the scoop!</p>
-        <form>
-            <label for="name"></label>
-            <input type="text" id="name" name="name" placeholder="Voer je e-mailadres in" />
-            <button type="submit">Submit</button>
-        </form>
+		<section>
+			<h2>Meld je aan voor onze nieuwsbrief</h2>
+			<p>Wij zorgen ervoor dat je als eerste op de hoogte bent van nieuwe smaken, fun activiteiten en sociale initiatieven van Ben & Jerry's! Get the scoop!</p>
+			<form>
+				<label for="name"></label>
+				<input type="text" id="name" name="name" placeholder="Voer je e-mailadres in" />
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+		<section>
+			<h2>Blijf op de hoogte</h2>
+			<ul>
+				<li><a href="">Stuur ons feedback</a></li>
+				<li><a href="">unsubscribe</a></li>
+			</ul>
+		</section>
 
+		
+		<nav>
+			<h2>Volg ons!</h2>
+			<img src="/images/instagram.png" alt="imstagram">
+			<img src="/images/facebook.png" alt="facebook">
+			<img src="/images/tik-tok.png" alt="tiktok">
+			<img src="/images/twitter.png" alt="twitter">
+		</nav>
 
-        <h2>Blijf op de hoogte</h2>
-        <ul>
-            <li><a href="">Stuur ons feedback</a></li>
-            <li><a href="">unsubscribe</a></li>
-        </ul>
-
-        <nav>
-            <h2>Volg ons!</h2>
-            <ul>
-                <li><a href="">Facebook</a></li>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Tiktok</a></li>
-                <li><a href="">Twitter</a></li>
-            </ul>
-        </nav>
-        
-
-        <h2>Meer informatie</h2>
-        <ul>
-            <li><a href="">Nieuws</a></li>
-            <li><a href="">Over ons</a></li>
-            <li><a href="">Hoe wij zaken doen</a></li>
-        </ul>
-
-        <img src="./images/NL.webp" alt="Nederlands">
-        <a class="dropdown toggle"></a>
-    </footer>
+		<section>
+			<h2>Meer informatie</h2>
+			<ul>
+				<li><a href="">Nieuws</a></li>
+				<li><a href="">Over ons</a></li>
+				<li><a href="">Hoe wij zaken doen</a></li>
+			</ul>
+		</section>
+		<img src="./images/NL.webp" alt="Nederlands">
+		<a class="dropdown toggle"></a>
+	</footer>
     <script src="./scripts/script.js"></script> 
 </body>
 </html>

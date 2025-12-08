@@ -73,6 +73,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  1. missende of onvolledige alt tekst bij images. voor gebruikers met een screenreader is het essentieel om te kunnen bergijpen wat zo een image voorstelt. 
+
+  2. Formulieren en invoervelden zonder duidelijke labels.
+
+  3. Navigatie die niet toegankelijk is zonder toetsenbord. Mensen met een motorische beperking moeten zonder muis een website kunnen gebruiken. 
 </details>
 
 
@@ -116,10 +121,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Mijn html bleek redelijk semantisch te zijn. Hier en daar een aantal foutjes die nu opgelost zijn. Ik had een aantal classes en divs die niet juist waren. Ik ben lekker op weg.
 
 </details>
 
@@ -133,26 +135,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  Ik heb de tweede pagina gemaakt met html. de tweede pagina had meer forms en andere soorten elementen die ik nog nooit gecodeert had. 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Ik had een aantal sections en articles die net niet helemaal goed stonden of onnidig waren. voor de rest zag mijn code er goed uit. Ik had wat vragen gesteld over de css en die zijn beantwoord.
 
 </details>
 
@@ -180,27 +168,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik ben heel ver met de site. Ik vind het eigenlijk best leuk om de site na te coderen. Ik heb nu volledig de html van beide paginas en ben bijna klaar met de css. Nog een paar kleine grid probleempjes maar het moet lukken.
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  Dit voortgangsgesprek ging niet door vanwege ziekte bij docent en studentassistent
 </details>
 
 
@@ -241,8 +213,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://www.w3schools.com/css/css_text.asp 
+  2. https://www.w3schools.com/css/css3_borders.asp
+  3. https://www.w3schools.com/tags/tag_select.asp
+  4. https://www.w3schools.com/bootstrap/bootstrap_dropdowns.asp
+  5. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/search
+  6. https://www.w3schools.com/howto/howto_css_searchbar.asp
+  7. https://stackoverflow.com/questions/14615712/toggle-classname-onclick-javascript
+  8. https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
+  9. https://www.w3schools.com/jsref/event_onclick.asp
+  10. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/placeholder
+  11. https://www.w3schools.com/tags/att_input_placeholder.asp 
+  12. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/article
+  13. 
+  14. 
+  15. 
 
 </details>
