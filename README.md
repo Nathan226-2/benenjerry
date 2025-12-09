@@ -176,7 +176,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   2. Alle sections en articles worden op de juiste manier voorgelezen via de voiceover. 
 
-  3. 
+  <img src="./readme-images/WCAG checklist bladzijde 1.png" width="375px" alt="top">
+  <img src="./readme-images/WCAG checklist bladzijde 2.png width="375px" alt="top">
+  <img src="./readme-images/WCAG checklist bladzijde 3.png" width="375px" alt="top">
 </details>
 
 
@@ -210,13 +212,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Ik heb erg veel geleerd tijdens dit vak. Ik heb het gevoel dat ik nu de basis echt wel goed begrijp. 
+  Ik heb erg veel geleerd tijdens dit vak. Ik heb het gevoel dat ik nu de basis echt wel goed begrijp. Ik ben zelf erg tevreden over de site die ik heb gemaakt. 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het was mij niet gelukt om bij de darkmode de kleuren die ik had toegewezen aan bepaalde sections ook te laten mee veranderen in zwart. Ik denk dat het ligt aan dat ik de sections specifiek heb aangeroepen en die een kleur heb toegewezen en dat die dus de zwarte kleur overschrijft. 
 
   <img src="./readme-images/Scherm­afbeelding 2025-12-09 om 13.25.35.png" width="375px" alt="bummer">
 </details>

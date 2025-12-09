@@ -69,9 +69,11 @@ button.hamburgermenu {
     padding: 1em;
 }
 
-header button {
-    width: 10%;
-    height: 30%;
+
+header button{
+    background-color: #201460;
+    color: white;
+    width: 100px;
 }
 
 nav ul{
@@ -105,6 +107,11 @@ body {
 body main img {
     max-width: 100%;
     padding: 0%;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
 }
 
 main section article {
@@ -184,7 +191,6 @@ animation-iteration-count:5;
 img[aria-label="ijsje"]:hover {
     animation-name:ijsje-animation;
     animation-duration:1s;
-    animation-iteration-count: 5; 
 }
 
 main section ul li{
