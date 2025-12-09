@@ -96,10 +96,6 @@ body section div {
     margin: 1em;
 }   
 
-body section label{
-
-}
-
 body {
     padding: 0;
     margin: 0;
@@ -113,10 +109,6 @@ body main img {
 
 main section article {
     padding: 1em;
-}
-
-main {
-    padding: em;
 }
 
 main section:nth-of-type(2)  {
@@ -139,11 +131,12 @@ main section:nth-of-type(5) {
 
 .input {
     height: 40px;
-    line-height: 28px;
+    width: 300px;
     border-radius: 2em;
+    padding: 1em;
 }
 
-@keyframes zoekbar-animation {
+/* @keyframes zoekbar-animation {
     0% { 
         background-color:var(--start-color);
       }
@@ -173,7 +166,7 @@ li[aria-label="zoekbar"]:hover {
 animation-name:zoekbar-animation;
 animation-duration:2s;
 animation-iteration-count:5;
-}
+} */
 
 @keyframes ijsje-animation {
     0% {
@@ -208,14 +201,34 @@ footer section{
     padding: 1em;
 }
 
-footer nav {
+footer form input{
+    height: 50px;
+    width: 300px;
+    border-radius: 1em;
     padding: 1em;
-    
+}
+
+footer button {
+    border-radius: .5em;
+    margin: 0;
 }
 
 footer h2{
     color: #ffffff;
     margin-top: 0;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer nav {
+    padding: 1em;
+}
+
+footer nav img {
+    margin: .5em;
 }
 
 footer p{
@@ -224,11 +237,13 @@ footer p{
 
 footer a{
     color: #ffffff;
+    list-style: none;
 }
 
+/*  https://chatgpt.com/share/6936bc74-b810-8001-bcef-683394a8c1ca */
 footer nav img{
     max-width: 10%;
-    
+    filter: brightness(0) invert(1);
 }
 
 footer section:nth-of-type(3) {

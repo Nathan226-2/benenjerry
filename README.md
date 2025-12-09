@@ -156,6 +156,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  De echte Ben & Jerry's site:
+
+  1. missende of onvolledige alt tekst bij images. voor gebruikers met een screenreader is het essentieel om te kunnen bergijpen wat zo een image voorstelt. 
+
+  2. Formulieren en invoervelden zonder duidelijke labels.
+
+  3. Navigatie die niet toegankelijk is zonder toetsenbord. Mensen met een motorische beperking moeten zonder muis een website kunnen gebruiken. 
+
+  4. De voiceover werkt heel duidelijk op de site van ben&jerry's. Het viel mij op dat het hamburger menu helemaal werd uitgelegd. 
+
+  5. De site van Ben & Jerry's zit qua responsiveness heel goed in elkaar. de navigatie verdwijnt mooi in het hamburger menu wanneer je de site op telefoon opent. 
+
+  6. De site van ben & jerry's heeft geen interactieve media. Het is een goede maar hele standaard website. 
+
+  Mijn nagemaakte site:
+
+  1. Al mijn images hebben een duidelijke alt beschrijving waardoor mensen met een beperkt zicht goed kunnen begrijpen hoe de pagina eruit ziet.
+
+  2. Alle sections en articles worden op de juiste manier voorgelezen via de voiceover. 
+
+  3. 
 </details>
 
 
@@ -189,7 +210,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb erg veel geleerd tijdens dit vak. Ik heb het gevoel dat ik nu de basis echt wel goed begrijp. 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
@@ -197,7 +218,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="./readme-images/Scherm­afbeelding 2025-12-09 om 13.25.35.png" width="375px" alt="bummer">
 </details>
 
 
@@ -225,7 +246,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   10. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/placeholder
   11. https://www.w3schools.com/tags/att_input_placeholder.asp 
   12. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/article
-  13. 
+  13. https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp 
   14. 
   15. 
 

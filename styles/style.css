@@ -20,6 +20,7 @@
 
 /* jouw code */
 
+
 @font-face {
     font-family: 'ChunkFive';
     font-weight: 400;
@@ -69,9 +70,10 @@ button.hamburgermenu {
     padding: 1em;
 }
 
-header button {
-    width: 10%;
-    height: 30%;
+header button{
+    background-color: #201460;
+    color: white;
+    width: 100px;
 }
 
 nav ul{
@@ -81,10 +83,6 @@ nav ul{
 
 nav ul.open {
     display:block
-}
-
-.hamburgermenu{
-
 }
 
 section button {
@@ -100,6 +98,11 @@ body {
     padding: 0;
     margin: 0;
     margin-bottom: 0;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
 }
 
 body main img {
@@ -119,6 +122,7 @@ main {
 section:nth-of-type(1) div{
     padding: 1em;
 }
+
 
 /*css voor de verkooppunten sectie*/
 section:nth-of-type(2) {
@@ -193,7 +197,6 @@ section:nth-of-type(5) article img{
 
 footer {
     background-color: #2a5729;
-    
 }
 
 footer section{
@@ -203,26 +206,46 @@ footer section{
 
 footer nav {
     padding: 1em;
-     
+}
+
+footer nav img {
+    margin: .5em;
+}
+
+footer form input{
+    height: 50px;
+    width: 300px;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+footer button {
+    border-radius: .5em;
+    margin: 0;
 }
 
 footer h2{
     color: #ffffff;
     margin-top: 0;
-    
 }
 
 footer p{
     color: #ffffff;
 }
 
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
 footer a{
     color: #ffffff;
 }
 
+/* https://chatgpt.com/share/6936bc74-b810-8001-bcef-683394a8c1ca */
 footer nav img{
     max-width: 10%;
-    
+    filter: brightness(0) invert(1);
 }
 
 footer section:nth-of-type(3) {
