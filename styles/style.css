@@ -24,8 +24,8 @@
 @font-face {
     font-family: 'ChunkFive';
     font-weight: 400;
-    src: url('/fonts/chunkfive-regular-webfont.woff2') format('woff2'),
-    url('/fonts/chunkfive-regular-webfont.woff') format('woff'); 
+    src: url('../fonts/chunkfive-regular-webfont.woff2') format('woff2'),
+    url('../fonts/chunkfive-regular-webfont.woff') format('woff'); 
 }
 
 h1 {
