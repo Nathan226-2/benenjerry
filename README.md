@@ -177,7 +177,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   2. Alle sections en articles worden op de juiste manier voorgelezen via de voiceover. 
 
   <img src="./readme-images/WCAG checklist bladzijde 1.png" width="375px" alt="top">
-  <img src="./readme-images/WCAG checklist bladzijde 2.png width="375px" alt="top">
+  <img src="./readme-images/WCAG checklist bladzijde 2.png" width="375px" alt="top">
   <img src="./readme-images/WCAG checklist bladzijde 3.png" width="375px" alt="top">
 </details>
 
