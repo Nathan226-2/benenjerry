@@ -221,11 +221,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   surface plane die ik in mijn site heb verwerkt: 
 
-  1. custom theme: light/dark mode
-  2. animatie: ijsje wat draait
-  3. complete micro interactie: hamburger menu
-  4. Dom manimpulatie: Hamburger menu en dark/light mode
+  1. custom theme: light/dark mode.
+  2. animatie: ijsje wat draait.
+  3. complete micro interactie: hamburger menu.
+  4. Dom manimpulatie: Hamburger menu en dark/light mode.
   5. toegankelijkheid++: Semantische html, alt teksten op images, buttons die buttons zijn met een hover en forms en zoekvelden met labels.
+  6. Prefers reduced motion: ijsje draait niet wanneer gebruiker dat aan heeft staan.
 
   <img src="./readme-images/MijnPagina.png" width="375px" alt="top">
 
