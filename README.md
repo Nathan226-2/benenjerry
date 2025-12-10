@@ -141,6 +141,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Ik had een aantal sections en articles die net niet helemaal goed stonden of onnidig waren. voor de rest zag mijn code er goed uit. Ik had wat vragen gesteld over de css en die zijn beantwoord.
+  - De onnodige divs en classes heb ik weg gehaald en dat ziet er nu goed uit.
 
 </details>
 
@@ -213,7 +214,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="../basiswebsite/readme-images/MijnPagina.png" width="375px" alt="uitomst opdracht 1">
+  <img src="./readme-images/MijnPagina.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -232,7 +233,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit was lastig/Is niet gelukt:
-  Het was mij niet gelukt om bij de darkmode de kleuren die ik had toegewezen aan bepaalde sections ook te laten mee veranderen in zwart. Ik denk dat het ligt aan dat ik de sections specifiek heb aangeroepen en die een kleur heb toegewezen en dat die dus de zwarte kleur overschrijft. 
+  Het was mij niet gelukt om bij de darkmode de kleuren die ik had toegewezen aan bepaalde sections ook te laten mee veranderen in zwart. Ik denk dat het ligt aan dat ik de sections specifiek heb aangeroepen en die een kleur heb toegewezen en dat die dus de zwarte kleur overschrijft. Denk dat het mij wel gelukt was als ik meer tijd had.
 
   <img src="./readme-images/Scherm­afbeelding 2025-12-09 om 13.25.35.png" width="375px" alt="bummer">
 </details>
@@ -263,7 +264,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   11. Hoe zit een placeholder in elkaar: https://www.w3schools.com/tags/att_input_placeholder.asp 
   12. Wanneer gebruik je articles: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/article
   13. Dark-mode gemaakt aan de hand van deze bron: https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp 
-  14. Vragen aan chatgpt als: Is mijn code nu semantisch correct? Vaak was het antwoorde nee. met de darkmode overwrite het de kleuren die ik bepaalde secties in mijn body heb gegeven niet hoe kan ik dat fixen? begreep het na uitleg nog steeds niet. Is mijn javascript nu semantisch? Je spreekt niet over semantiek met javascript. Voldoet mijn code aan de volgende eisen? 
+  14. Vragen aan chatgpt als: Is mijn code nu semantisch correct? Vaak was het antwoord nee. Met de darkmode overwrite het de kleuren die ik bepaalde secties in mijn body heb gegeven niet hoe kan ik dat fixen? begreep het na uitleg half maar zag eruit als iets wat veel tijd zou kosten. Is mijn javascript nu semantisch? Je spreekt niet over semantiek met javascript. Voldoet mijn code aan de volgende eisen? ja.
+  
   
 
 </details>
