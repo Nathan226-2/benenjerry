@@ -176,6 +176,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   2. Alle sections en articles worden op de juiste manier voorgelezen via de voiceover. 
 
+  3. Mijn html is volgens de validator helemaal semantisch. 
+
+  4. De originele site heeft geen darkmode en mijn nagemaakte site wel.
+
+  Ik heb de WCAG checklist test zelf gedaan op mijn eigen site. De ondervindingen heb ik bij de remarks gezet op de test. Tijdens het doen van de test kwam ik erachter dat eigenlijk toch redelijk wat onderdelen van mijn site nog niet in orde waren. Na afloop van de test heb ik dat aangepast en nu is de code in orde. 
   <img src="./readme-images/WCAG checklist bladzijde 1.png" width="375px" alt="top">
   <img src="./readme-images/WCAG checklist bladzijde 2.png" width="375px" alt="top">
   <img src="./readme-images/WCAG checklist bladzijde 3.png" width="375px" alt="top">
@@ -191,7 +196,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Ik ben heel ver met de site. Ik vind het eigenlijk best leuk om de site na te coderen. Ik heb nu volledig de html van beide paginas en ben bijna klaar met de css. Nog een paar kleine grid probleempjes maar het moet lukken.
+  Ik ben heel ver met de site. Ik vind het eigenlijk best leuk om de site na te coderen. Ik heb nu volledig de html van beide paginas en ben bijna klaar met de css. Nog een paar kleine grid probleempjes maar het moet lukken. Ik ben nu vooral bezig met de surface plane uitdagingen. Zo heb ik een darkmode met javascript gemaakt met behulp van w3s.
 
 
   ### Agenda voor meeting
@@ -214,7 +219,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   Ik heb erg veel geleerd tijdens dit vak. Ik heb het gevoel dat ik nu de basis echt wel goed begrijp. Ik ben zelf erg tevreden over de site die ik heb gemaakt. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  surface plane die ik in mijn site heb verwerkt: 
+
+  1. custom theme: light/dark mode
+  2. animatie: ijsje wat draait
+  3. complete micro interactie: hamburger menu
+  4. Dom manimpulatie: Hamburger menu en dark/light mode
+  5. toegankelijkheid++: Semantische html, alt teksten op images, buttons die buttons zijn met een hover en forms en zoekvelden met labels.
+
+  <img src="./readme-images/MijnPagina.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -241,15 +254,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. https://www.w3schools.com/tags/tag_select.asp
   4. https://www.w3schools.com/bootstrap/bootstrap_dropdowns.asp
   5. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/search
-  6. https://www.w3schools.com/howto/howto_css_searchbar.asp
+  6. Het maken van een zoekbalk met css: https://www.w3schools.com/howto/howto_css_searchbar.asp
   7. https://stackoverflow.com/questions/14615712/toggle-classname-onclick-javascript
   8. https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
-  9. https://www.w3schools.com/jsref/event_onclick.asp
-  10. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/placeholder
-  11. https://www.w3schools.com/tags/att_input_placeholder.asp 
-  12. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/article
-  13. https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp 
-  14. 
-  15. 
+  9. Javascript over het onclick en click event van bijvoorbeeld de darkmode button: https://www.w3schools.com/jsref/event_onclick.asp
+  10. Hoe zit een placeholder in elkaar: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/placeholder
+  11. Hoe zit een placeholder in elkaar: https://www.w3schools.com/tags/att_input_placeholder.asp 
+  12. Wanneer gebruik je articles: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/article
+  13. Dark-mode gemaakt aan de hand van deze bron: https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp 
+  14. Vragen aan chatgpt als: Is mijn code nu semantisch correct? Vaak was het antwoorde nee. met de darkmode overwrite het de kleuren die ik bepaalde secties in mijn body heb gegeven niet hoe kan ik dat fixen? begreep het na uitleg nog steeds niet. Is mijn javascript nu semantisch? Je spreekt niet over semantiek met javascript. Voldoet mijn code aan de volgende eisen? 
+  
 
 </details>

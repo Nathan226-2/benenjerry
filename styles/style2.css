@@ -94,6 +94,14 @@ section button {
     border: none;
 }
 
+section button:hover {
+    background-color:  #e0a001;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 3em;
+    font-weight: 600;
+}
+
 body section div {
     margin: 1em;
 }   
@@ -175,6 +183,7 @@ animation-duration:2s;
 animation-iteration-count:5;
 } */
 
+/* animatie die de img van het ijsje laat draaien. */
 @keyframes ijsje-animation {
     0% {
       rotate:360deg;
@@ -183,8 +192,22 @@ animation-iteration-count:5;
     }
     100% {
       rotate:0deg;
-      scale: 1.5;
+      scale: 1.1;
       
+    }
+}
+
+/* Media querie die ervoor zorgt dat de animatie van het ijsje niet draait als een gebruiker prefers-reduced-motion aan heeft staan. */
+@media (prefers-reduced-motion: no-preference) {
+    img[aria-label="ijsje"]:hover {
+      animation-name: ijsje-animation;
+      animation-duration: 1s;
+    }
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    img[aria-label="ijsje"]:hover {
+      animation: none;
     }
   }
 
@@ -214,7 +237,20 @@ footer form input{
     padding: 1em;
 }
 
+/* Display:none; mag niet aangezien de screenreader het label dan niet voorleest. code van: https://www.anysurfer.be/nl/documentatie/artikels/detail/verborgen-tekst */
+.niet-zichtbaar{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
 footer button {
+    background-color:#e0a001 ;
     border-radius: .5em;
     margin: 0;
 }

@@ -91,13 +91,22 @@ section button {
     padding: 1em;
     border-radius: 3em;
     font-weight: 600;
-    border: none;
+    border-style: none;
+}
+
+section button:hover {
+    background-color:  #e0a001;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 3em;
+    font-weight: 600;
 }
 
 body {
     padding: 0;
     margin: 0;
     margin-bottom: 0;
+    transition: background-color .3s ease, color .3s ease;
 }
 
 .dark-mode{
@@ -219,6 +228,18 @@ footer form input{
     padding: 1em;
 }
 
+/* Display:none; mag niet aangezien de screenreader het label dan niet voorleest. code van: https://www.anysurfer.be/nl/documentatie/artikels/detail/verborgen-tekst */
+.niet-zichtbaar{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+ }
+ 
 footer button {
     border-radius: .5em;
     margin: 0;
