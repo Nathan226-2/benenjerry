@@ -105,7 +105,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Het opzetten van de html ging eigenlijk best wel goed. Ik twijfel alleen een beetje aan hoe semantisch mijn code is. Ik was ook al een beetje begonnen met css maar dat gaat nog lastig. Javascript heb ik het begin van een hamburger menu opgezet. Dit werd in de les uitgelegd.
+  Het opzetten van de html ging eigenlijk best wel goed. Ik twijfel alleen een beetje aan hoe semantisch mijn code is. Ik was ook al een beetje begonnen met css maar dat gaat nog lastig. Javascript heb ik het begin van een hamburger menu opgezet. Dit werd in de les uitgelegd. De opdrachten gaan mij tot nu toe goed af. 
 
 
   ### Agenda voor meeting
@@ -113,7 +113,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Nathan         | Zoë                | Artemis      | Tess             |
   | ---            | ---                | ---          | ---              |
-  | Html bespreken | voortgang          | voortgang    |  voortgang       |
+  | Html bespreken | voortga            | voortgang    |  voortgang       |
   |                |                    |              |                  |
   |                |                    |              |                  |
 
@@ -213,11 +213,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="../basiswebsite/readme-images/MijnPagina.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Ik heb erg veel geleerd tijdens dit vak. Ik heb het gevoel dat ik nu de basis echt wel goed begrijp. Ik ben zelf erg tevreden over de site die ik heb gemaakt. 
+  Ik heb erg veel geleerd tijdens dit vak. Ik heb het gevoel dat ik nu de basis van html en css echt wel goed begrijp. Ik ben zelf erg tevreden over de site die ik heb gemaakt. Het opzetten van de html ging eigenlijk verrassend snel en makkelijk, de css vond ik denk ik het lastigst en de javascript verliep ook best makkelijk. Ik volg dit blok namelijk ook inleiding programmeren dus de js-3-stap was goed te doen. Ik had eigenlijk mijn site responsive willen maken omdat mij dat eigenlijk vetter leek dan een aantal surface plane onderwerpen. Maar vanwege angst dat het me niet zou lukken leek het mij slimmer om aan de gang te gaan met iets waarvan ik wist dat het sowieso wel goed moest komen. 
 
   surface plane die ik in mijn site heb verwerkt: 
 
@@ -228,7 +228,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   5. toegankelijkheid++: Semantische html, alt teksten op images, buttons die buttons zijn met een hover en forms en zoekvelden met labels.
   6. Prefers reduced motion: ijsje draait niet wanneer gebruiker dat aan heeft staan.
 
-  <img src="./readme-images/MijnPagina.png" width="375px" alt="top">
+ 
 
 
   ### Dit was lastig/Is niet gelukt:
