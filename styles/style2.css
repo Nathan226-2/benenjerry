@@ -20,6 +20,7 @@ box-sizing:border-box;
 
 /* jouw code */
 
+/* Font face die mijn gedownloade font ophaalt */
 @font-face {
     font-family: 'ChunkFive';
     font-weight: 400;
@@ -27,37 +28,44 @@ box-sizing:border-box;
     url('../fonts/chunkfive-regular-webfont.woff') format('woff'); 
 }
 
+/* styling voor de h1 */
 h1 {
     font-family: 'ChunkFive';
 }
 
+/* styling voor de h2 */
 h2 {
     font-family: 'Chunkfive';
 }
 
+/* styling voor de h3 */
 h3 { 
     font-family: 'Chunkfive';
 }
 
+/* styling voor de p */
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* styling voor de header */
 header{
     background-color: white;
 }
 
-/* Hier begint de header*/
+/* styling voor de header navigatie*/
 header nav {
 display: flex;
 justify-content: space-between;
 }
 
+/* styling voor het logo img */
 header img {
     width: 50%;
     padding: 1em;
 }
 
+/* hamburger menu waar ik een button een img heb gegeven zodat het lijkt op een hamburger menu. Bron: samen met Vasilis van Gemert uitgevogeld in de les.*/
 button.hamburgermenu {
     width: 40px;
     height: 40px;
@@ -69,22 +77,25 @@ button.hamburgermenu {
     padding: 1em;
 }
 
-
+/* styling voor de dark-mode button */
 header button{
     background-color: #201460;
     color: white;
     width: 100px;
 }
 
+/* styling die ervoor zorgt dat de list items geen styling hebben */
 nav ul{
     display: none;
     list-style: none;
 }
 
+/* nav ul open class die ervoor zorgt dat mijn items zichtbaar worden wanneer het getoggled wordt */
 nav ul.open {
     display:block
 }
 
+/* styling voor de algemene button */
 section button {
     background-color: #ffbc0e;
     margin: 1em;
@@ -94,6 +105,7 @@ section button {
     border: none;
 }
 
+/* styling voor de hover van de algemene button */
 section button:hover {
     background-color:  #e0a001;
     margin: 1em;
@@ -102,10 +114,12 @@ section button:hover {
     font-weight: 600;
 }
 
+/* styling die zorgt voor een kleine ruimte */
 body section div {
     margin: 1em;
 }   
 
+/* styling voor de body, en styling voor de transition van de dark-mode(maakt hem vloeiend ipv directe switch) */
 body {
     padding: 0;
     margin: 0;
@@ -113,38 +127,46 @@ body {
     transition: background-color .3s ease, color .3s ease;
 }
 
+/* styling voor de images in de main */
 body main img {
     max-width: 100%;
     padding: 0%;
 }
 
+/* de dark-mode die gekoppelt wordt aan de body met de variabele element in mijn javascript */
 .dark-mode{
     background-color: black;
     color: white;
 }
 
+/* styling voor zorgt voor een kleine ruimte */
 main section article {
     padding: 1em;
 }
 
+/* styling voor de tweede section in de main */
 main section:nth-of-type(2)  {
     display: flex;
     justify-content: center;
     margin-top: 5em;
 }
 
+/* styling voor de derde section in de main */
 main section:nth-of-type(3) {
     padding: 1em;
 }
 
+/* styling voor de vierde section in de main */
 main section:nth-of-type(4) {
     padding: 1em;
 }
 
+/* styling voor de vijfde section in de main */
 main section:nth-of-type(5) {
     padding: 1em;
 }
 
+/* styling voor het input veld  */
 .input {
     height: 40px;
     width: 300px;
@@ -152,7 +174,9 @@ main section:nth-of-type(5) {
     padding: 1em;
 }
 
-/* @keyframes zoekbar-animation {
+/* Zoekbar animatie die niet werkt zoals ik dat wil:
+
+@keyframes zoekbar-animation {
     0% { 
         background-color:var(--start-color);
       }
@@ -221,7 +245,7 @@ main section ul li{
     list-style: none;
 }
   
-
+/* styling van de footer begint hier */
 footer {
     background-color: #2a5729;
 }

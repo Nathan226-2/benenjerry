@@ -20,7 +20,7 @@
 
 /* jouw code */
 
-
+/* Font face die mijn gedownloade font ophaalt */
 @font-face {
     font-family: 'ChunkFive';
     font-weight: 400;
@@ -28,37 +28,44 @@
     url('../fonts/chunkfive-regular-webfont.woff') format('woff'); 
 }
 
+/* styling voor de h1 */
 h1 {
     font-family: 'ChunkFive';
 }
 
+/* styling voor de h2 */
 h2 {
     font-family: 'Chunkfive';
 }
 
+/* styling voor de h3 */
 h3 { 
     font-family: 'Chunkfive';
 }
 
+/* styling voor de p */
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+/* styling voor de header */
+header {
     background-color: white;
 }
 
-/* Hier begint de header*/
+/* styling voor de header navigatie*/
 header nav {
   display: flex;
   justify-content: space-between;
 }
 
+/* styling voor het logo img */
 header img {
     width: 50%;
     padding: 1em;
 }
 
+/* hamburger menu waar ik een button een img heb gegeven zodat het lijkt op een hamburger menu. Bron: samen met Vasilis van Gemert uitgevogeld in de les.*/
 button.hamburgermenu {
     width: 40px;
     height: 40px;
@@ -70,21 +77,25 @@ button.hamburgermenu {
     padding: 1em;
 }
 
-header button{
+/* styling voor de dark-mode button */
+header button {
     background-color: #201460;
     color: white;
     width: 100px;
 }
 
-nav ul{
+/* styling die ervoor zorgt dat de list items geen styling hebben */
+nav ul {
     display: none;
     list-style: none;
 }
 
+/* nav ul open class die ervoor zorgt dat mijn items zichtbaar worden wanneer het getoggled wordt */
 nav ul.open {
     display:block
 }
 
+/* styling voor de algemene button */
 section button {
     background-color: #ffbc0e;
     margin: 1em;
@@ -94,6 +105,7 @@ section button {
     border-style: none;
 }
 
+/* styling voor de hover van de algemene button */
 section button:hover {
     background-color:  #e0a001;
     margin: 1em;
@@ -102,6 +114,7 @@ section button:hover {
     font-weight: 600;
 }
 
+/* styling voor de body, en styling voor de transition van de dark-mode(maakt hem vloeiend ipv directe switch) */
 body {
     padding: 0;
     margin: 0;
@@ -109,22 +122,21 @@ body {
     transition: background-color .3s ease, color .3s ease;
 }
 
-.dark-mode{
+/* de dark-mode die gekoppelt wordt aan de body met de variabele element in mijn javascript */
+.dark-mode {
     background-color: black;
     color: white;
 }
 
+/* styling voor de images in de main */
 body main img {
     max-width: 100%;
     padding: 0%;
 }
 
+/* styling voor zorgt voor een kleine ruimte */
 main section article {
     padding: 1em;
-}
-
-main {
-    padding: em;
 }
 
 /*css voor de bohemian rasberry sectie*/
@@ -204,6 +216,7 @@ section:nth-of-type(5) article img{
     max-width: 15%;
 }
 
+/* css voor de footer */
 footer {
     background-color: #2a5729;
 }
@@ -228,7 +241,7 @@ footer form input{
     padding: 1em;
 }
 
-/* Display:none; mag niet aangezien de screenreader het label dan niet voorleest. code van: https://www.anysurfer.be/nl/documentatie/artikels/detail/verborgen-tekst */
+/* Display:none; is niet erg toegankelijk niet aangezien de screenreader het label dan niet voorleest. code van: https://www.anysurfer.be/nl/documentatie/artikels/detail/verborgen-tekst */
 .niet-zichtbaar{
     border: 0;
     clip: rect(0 0 0 0);
@@ -263,7 +276,7 @@ footer a{
     color: #ffffff;
 }
 
-/* https://chatgpt.com/share/6936bc74-b810-8001-bcef-683394a8c1ca */
+/* Styling die ervoor zorgt dat al mijn images wit worden ipv zwart. Bron: https://chatgpt.com/share/6936bc74-b810-8001-bcef-683394a8c1ca */
 footer nav img{
     max-width: 10%;
     filter: brightness(0) invert(1);
@@ -273,6 +286,5 @@ footer section:nth-of-type(3) {
     background-color: #2a5729;
 }
 
-/*css voor de verkooppunten pagina begint hier*/
 
 
